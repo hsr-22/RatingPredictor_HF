@@ -13,6 +13,8 @@ This repository contains code and resources for a Rating Predictor App that util
 ## Dataset
 I have used the [Yelp Reviews](https://huggingface.co/datasets/yelp_review_full) Dataset for this model.
 
+The Model after fine-tuning has been saved [here](https://drive.google.com/drive/folders/1FX8Gjbbq_qFze5TCjDEmOFkH5rOHUB1X).
+
 ## Prerequisites
 Before you begin, ensure you have the following prerequisites:
 - Python (>=3.6)
