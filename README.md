@@ -10,7 +10,7 @@ This repository contains code and resources for a Rating Predictor App that util
 - [Process Overview](#process-overview)
 - [Challenges](#challenges)
 
-## Dataset
+## Dataset and Model
 I have used the [Yelp Reviews](https://huggingface.co/datasets/yelp_review_full) Dataset for this model.
 
 The base model that is used is the [``bert-base-cased``](https://huggingface.co/bert-base-cased) model. It is a pre-trained model on English language using a masked language modeling (MLM) objective.
