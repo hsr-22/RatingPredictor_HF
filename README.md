@@ -38,6 +38,6 @@ Any project cannot be completed without facing challenges.
 Some of them which might be helpful in future are
 - Converting a tensor to a numpy array if using argmax for prediction
 - Installing accelerate after importing transformers causes issues. It is better to install all libraries together at the start.
-- If you are using GPU acceleration, then you need to add ``.to('cuda') `` in ``predictions`` to be able to predict successfully.
+- If you are using GPU acceleration, then you need to add ``.to('cuda')`` in ``predictions`` to be able to predict successfully.
 
 Enjoy! 🚀
