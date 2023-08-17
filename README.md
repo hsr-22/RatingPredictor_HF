@@ -5,7 +5,7 @@
 This repository contains code and resources for a Rating Predictor App that utilizes the Hugging Face's Gradio library and Transformers library with BERT for sentiment analysis. The app takes input in the form of reviews and predicts the corresponding rating (1 to 5 stars) based on the sentiment of the review.
 
 ## Table of Contents
-- [Dataset](#dataset)
+- [Dataset and Model](#dataset-and-model)
 - [Prerequisites](#prerequisites)
 - [Process Overview](#process-overview)
 - [Challenges](#challenges)
@@ -22,7 +22,7 @@ Before you begin, ensure you have the following prerequisites:
 - Python (>=3.6)
 - Pip package manager
 
-## Process-Overview
+## Process Overview
 1. Install the required libraries (datasets, transformers, gradio, accelerate, evaluate)
 2. Next, load the dataset ```yelp_reviews_full``` from ``datasets``
 3. Load tokenizer from the pre-trained BERT Model
