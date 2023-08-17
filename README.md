@@ -7,20 +7,22 @@ This repository contains code and resources for a Rating Predictor App that util
 ## Table of Contents
 - [Dataset](#dataset)
 - [Prerequisites](#prerequisites)
-- [Process Overview](#process)
+- [Process Overview](#process-overview)
 - [Challenges](#challenges)
 
 ## Dataset
 I have used the [Yelp Reviews](https://huggingface.co/datasets/yelp_review_full) Dataset for this model.
 
-The Model after fine-tuning has been saved [here](https://drive.google.com/drive/folders/1FX8Gjbbq_qFze5TCjDEmOFkH5rOHUB1X).
+The base model that is used is the [``bert-base-cased``](https://huggingface.co/bert-base-cased) model. It is a pre-trained model on English language using a masked language modeling (MLM) objective.
+
+The model after fine-tuning has been saved [here](https://drive.google.com/drive/folders/1FX8Gjbbq_qFze5TCjDEmOFkH5rOHUB1X).
 
 ## Prerequisites
 Before you begin, ensure you have the following prerequisites:
 - Python (>=3.6)
 - Pip package manager
 
-## Process Overview
+## Process-Overview
 1. Install the required libraries (datasets, transformers, gradio, accelerate, evaluate)
 2. Next, load the dataset ```yelp_reviews_full``` from ``datasets``
 3. Load tokenizer from the pre-trained BERT Model
