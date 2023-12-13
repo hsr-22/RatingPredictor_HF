@@ -1,14 +1,15 @@
-# Rating Predictor App using Gradio and Transformers from HuggingFace (BERT)
+# Rating Predictor App using Gradio and Transformers
 
 ![App Demo](https://github.com/hsr-22/RatingPredictor_HF/blob/main/app_demo.png)
 
-This repository contains code and resources for a Rating Predictor App that utilizes the Hugging Face's Gradio library and Transformers library with BERT for sentiment analysis. The app takes input in the form of reviews and predicts the corresponding rating (1 to 5 stars) based on the sentiment of the review.
+This repository contains code and resources for a Rating Predictor App that utilizes the HuggingFace's Gradio library and Transformers library with **BERT** for sentiment analysis. The app takes input in the form of reviews and predicts the corresponding rating (1 to 5 stars) based on the sentiment of the review.
 
 ## Table of Contents
 - [Dataset and Model](#dataset-and-model)
 - [Prerequisites](#prerequisites)
 - [Process Overview](#process-overview)
 - [Challenges](#challenges)
+- [*Updates*](#updates)
 
 ## Dataset and Model
 I have used the [Yelp Reviews](https://huggingface.co/datasets/yelp_review_full) Dataset for this model.
@@ -31,7 +32,7 @@ Before you begin, ensure you have the following prerequisites:
 6. In the specific task, create a tokenizer function to process the user inputs and return the output (In my application, I have given the confidences corresponding to each label as the output.)
 7. Next, simply launch your model using Gradio GUI. 
 
-   **And, we're done**
+   **And, we're done** 🥳
 
 Now, enter any review text relating to a topic of your choice and click the "Submit" button. The app will process the input using BERT-based sentiment analysis and provide a predicted rating. 
 
@@ -43,3 +44,6 @@ Some of them which might be helpful in future are
 - If you are using GPU acceleration, then you need to add ``.to('cuda')`` in ``predictions`` to be able to predict successfully.
 
 Enjoy! 🚀
+
+## *Updates*
+- *13<sup>th</sup> December 2023* - *The application has now been deployed on [HF Spaces](https://huggingface.co/spaces/) for accessibility to a broader interested audience. You can view it at [rating_predictor](https://huggingface.co/spaces/hsr-22/rating_predictor)*
