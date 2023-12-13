@@ -1,4 +1,4 @@
-# Rating Predictor App using Gradio and Transformers
+# Rating Predictor App using Sentiment Analysis
 
 ![App Demo](https://github.com/hsr-22/RatingPredictor_HF/blob/main/app_demo.png)
 
